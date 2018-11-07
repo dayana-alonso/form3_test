@@ -1,0 +1,58 @@
+body{ 
+	font-family: "Verdana", sans-serif;
+	margin-top: 40px !important;
+}
+
+.red-box {
+	border: 1px red dotted;
+}
+
+.blue-box{
+	border: 1px blue dotted;
+}
+
+.green-box{
+	border: 1px green dotted;
+}
+
+.nav {
+	height: 30px !important;
+	width: 550px !important;
+}
+
+.container{
+	width: 1100px;
+	height: auto;
+}
+
+.search-block {
+	height: 30px !important;
+	width: 350px !important;
+}
+
+.centered {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.clear-float::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.float-right{
+	float: right;
+}
+
+.float-left{
+	float: left;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.mr-30{
+	margin-right:30px;
+}
